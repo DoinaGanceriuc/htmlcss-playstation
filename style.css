@@ -4,3 +4,9 @@
   margin: 0;
   padding: 0;
 }
+/* debug */
+.debug .logo {
+  background-color: #000;
+  color: #fff;
+  text-align: right;
+}
