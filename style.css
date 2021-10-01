@@ -4,9 +4,26 @@
   margin: 0;
   padding: 0;
 }
+body {
+  font-family: Arial, sans-serif;
+}
 /* debug */
 .debug .logo {
   background-color: #000;
   color: #fff;
   text-align: right;
+}
+
+/* utility */
+img {
+  object-fit: cover;
+}
+/* Header */
+
+/* Main */
+.jumbo_img {
+  object-fit: cover;
+}
+.returnal {
+  height: 50px;
 }
