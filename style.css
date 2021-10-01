@@ -15,15 +15,13 @@ body {
 }
 
 /* utility */
-img {
+.jumbo_img {
   object-fit: cover;
 }
 /* Header */
 
 /* Main */
-.jumbo_img {
-  object-fit: cover;
-}
+
 .returnal {
   height: 50px;
 }
