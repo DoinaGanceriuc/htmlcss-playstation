@@ -63,7 +63,8 @@ body {
   height: 150px;
 }
 /* new games */
-.new_games {
+.new_games,
+.card {
   background-color: #1f1f1f;
 }
 /* plus */
