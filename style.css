@@ -67,6 +67,10 @@ body {
 .card {
   background-color: #1f1f1f;
 }
+.sigla_tm {
+  font-size: 0.5rem;
+  vertical-align: super;
+}
 /* plus */
 .plus {
   background-color: #bebcbb;
