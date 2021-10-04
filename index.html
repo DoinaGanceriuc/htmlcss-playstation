@@ -14,11 +14,13 @@
     <link rel="stylesheet" href="./style.css" />
   </head>
   <body class="debug">
-    <header class="site_header">
-      <div class="logo">lorem</div>
-      <nav class="navbar navbar-expand-sm navbar-light bg-light">
+    <header class="site_header sticky-top">
+      <div class="logo py-2">
+        <img class="px-3" height="15" src="./img/sony_logo.svg" alt="">
+      </div>
+      <nav class="navbar navbar-expand-lg navbar-light bg-light">
         <div class="container-fluid">
-          <a class="navbar-brand" href="#">lorem</a>
+          <a class="navbar-brand" href="#"><img src="./img/play_logo.svg" alt=""></a>
           <button
             class="navbar-toggler"
             type="button"
@@ -31,19 +33,46 @@
             <span class="navbar-toggler-icon"></span>
           </button>
           <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
-            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
-              <li class="nav-item">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item d-flex align-items-center px-3 fw-bold">
                 <a class="nav-link active" aria-current="page" href="#"
-                  >lorem</a
-                >
+                  >Giochi</a>
+                  <img height="15" src="./img/chevron-down-solid.svg" alt="">
               </li>
-              <li class="nav-item">
-                <a class="nav-link active" href="#">lorem</a>
+              <li class="nav-item d-flex align-items-center px-3 fw-bold">
+                <a class="nav-link active" href="#">Hardware</a>
+                <img height="15" src="./img/chevron-down-solid.svg" alt="">
               </li>
-              <li class="nav-item">
-                <a class="nav-link active">lorem</a>
+              <li class="nav-item d-flex align-items-center px-3 fw-bold">
+                <a class="nav-link active">Servizi</a>
+                <img height="15" src="./img/chevron-down-solid.svg" alt="">
+              </li>
+              <li class="nav-item d-flex align-items-center px-3 fw-bold">
+                <a class="nav-link active">Novità</a>
+                <img height="15" src="./img/chevron-down-solid.svg" alt="">
+              </li>
+              <li class="nav-item d-flex align-items-center px-3 fw-bold">
+                <a class="nav-link active">Fai acquisti</a>
+                <img height="15" src="./img/chevron-down-solid.svg" alt="">
+              </li>
+              <li class="nav-item d-flex align-items-center px-3 fw-bold">
+                <a class="nav-link active">Supporto</a>
+                <img height="15" src="./img/chevron-down-solid.svg" alt="">
               </li>
             </ul>
+            <ul class="navbar-nav me-2 d-flex align-items-center">
+              <li class="nav-item d-flex align-items-center fw-bold">
+                <a class="nav-link active">My PlayStation</a>
+                <img height="15" src="./img/chevron-down-solid.svg" alt="">
+              </li>
+              <li class="nav-item px-3">
+                 <button class="btn btn_dark rounded-pill text-white fw-bold" type="submit">Accedi</button>
+              </li>
+             <li class="nav-item">
+                <img height="25" src="./img/lens.svg" alt="">
+              </li>
+            </ul>
+            
           </div>
         </div>
       </nav>

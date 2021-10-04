@@ -18,6 +18,9 @@ body {
 .jumbo_img {
   object-fit: cover;
 }
+.btn_dark {
+  background-color: #363636;
+}
 /* Header */
 
 /* Main */
