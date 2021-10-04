@@ -15,19 +15,39 @@ body {
 }
 
 /* utility */
-.jumbo_img {
-  object-fit: cover;
+.pt_6 {
+  padding-top: 17rem;
 }
 .btn_dark {
   background-color: #363636;
+}
+.btn_red {
+  background-color: #cd3d0f;
+  color: white;
+}
+.card_only {
+  border: 2px solid #318dd7;
+  border-radius: 1rem;
+  background-color: white;
+  padding: 0.25rem;
+}
+.rounded_3 {
+  border-radius: 1rem;
 }
 /* Header */
 
 /* Main */
 
-.returnal {
-  height: 50px;
+/* jumbo */
+.main_jumbo {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center top;
 }
+.bg_jumbo {
+  background-image: url("./img/jumbo-bg.png");
+}
+
 .logo_takes {
   height: 150px;
 }
