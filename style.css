@@ -18,6 +18,9 @@ body {
 .pt_6 {
   padding-top: 17rem;
 }
+.pt_7 {
+  padding-top: 4rem;
+}
 .btn_dark {
   background-color: #363636;
 }
@@ -53,7 +56,9 @@ body {
 .bg_jumbo {
   background-image: url("./img/jumbo-bg.png");
 }
-
+.bg_adventure {
+  background-image: url("./img/it-takes-two-hero-banner-desktop.jpg");
+}
 .logo_takes {
   height: 150px;
 }
