@@ -97,3 +97,6 @@ i.far.fa-registered {
 .site_footer {
   background-color: #00439c;
 }
+.site_footer ul {
+  list-style: none;
+}
