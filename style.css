@@ -71,6 +71,11 @@ body {
   font-size: 0.5rem;
   vertical-align: super;
 }
+/* explore */
+i.far.fa-registered {
+  vertical-align: super;
+  font-size: 1rem;
+}
 /* plus */
 .plus {
   background-color: #bebcbb;
