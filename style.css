@@ -43,6 +43,9 @@ body {
 .border_b {
   border-bottom: 1px solid #0776cf;
 }
+.btn_light {
+  background-color: #d9dadc;
+}
 /* Header */
 
 /* Main */
