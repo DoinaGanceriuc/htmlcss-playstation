@@ -53,6 +53,11 @@ body {
   background-color: #d9dadc;
 }
 /* Header */
+.logo {
+  background-color: #000;
+  color: #fff;
+  text-align: right;
+}
 
 /* Main */
 
