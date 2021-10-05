@@ -138,6 +138,9 @@ i.far.fa-registered {
   vertical-align: super;
   font-size: 1rem;
 }
+.explore .btn_transition_blue {
+  width: 8rem;
+}
 /* plus */
 .plus {
   background-color: #bebcbb;
