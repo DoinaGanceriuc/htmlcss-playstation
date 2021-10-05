@@ -61,7 +61,8 @@ body {
 a.nav-link.active,
 .nav-item .btn,
 .btn_transition .btn,
-.movement .card {
+.movement .card,
+.btn_transition_blue .btn {
   transition: all 0.2s;
 }
 a.nav-link.active:hover,
@@ -101,8 +102,25 @@ a.nav-link.active:hover,
   border: 1px solid #000;
   color: #fff;
 }
-.movement .card:hover {
+.movement .card:hover,
+.movement .card_only:hover {
   transform: translate(0, -0.5rem);
+  cursor: pointer;
+}
+/* console */
+.btn_transition_blue {
+  background-color: #0d6efd;
+  border-radius: 50rem;
+  padding: 0.3rem;
+  width: 12rem;
+}
+.btn_transition_blue .btn:hover {
+  background-color: #0d6efd;
+  border: 1px solid #6ed4fd;
+  color: #fff;
+}
+.console_opacity:hover {
+  filter: contrast(1.5);
   cursor: pointer;
 }
 /* new games */
