@@ -1,0 +1,118 @@
+/* reset */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: Arial, sans-serif;
+}
+/* debug */
+.debug .logo {
+  background-color: #000;
+  color: #fff;
+  text-align: right;
+}
+
+/* utility */
+.pt_6 {
+  padding-top: 17rem;
+}
+.pt_7 {
+  padding-top: 4rem;
+}
+.py_6 {
+  padding: 5rem 0;
+}
+.pb_6 {
+  padding-bottom: 5rem;
+}
+.btn_dark {
+  background-color: #363636;
+}
+.btn_red {
+  background-color: #cd3d0f;
+  color: white;
+}
+.card_only {
+  border: 2px solid #318dd7;
+  border-radius: 1rem;
+  background-color: white;
+  padding: 0.25rem;
+}
+.rounded_3 {
+  border-radius: 1rem;
+}
+.text_blue {
+  color: #0776cf;
+}
+.border_b {
+  border-bottom: 1px solid #0776cf;
+}
+.btn_light {
+  background-color: #d9dadc;
+}
+/* Header */
+.logo {
+  background-color: #000;
+  color: #fff;
+  text-align: right;
+}
+a.nav-link.active,
+.nav-item .btn {
+  transition: all 0.2s;
+}
+a.nav-link.active:hover {
+  color: #0776cf !important;
+  cursor: pointer;
+}
+.nav-item .btn:hover {
+  box-shadow: 0 0 0 0.25rem rgba(173, 172, 172, 0.568);
+}
+
+/* Main */
+
+/* jumbo */
+.main_jumbo {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center top;
+}
+.bg_jumbo {
+  background-image: url("./img/jumbo-bg.png");
+}
+.bg_adventure {
+  background-image: url("./img/it-takes-two-hero-banner-desktop.jpg");
+}
+.logo_takes {
+  height: 150px;
+}
+/* new games */
+.new_games,
+.card {
+  background-color: #1f1f1f;
+}
+.sigla_tm {
+  font-size: 0.5rem;
+  vertical-align: super;
+}
+/* explore */
+i.far.fa-registered {
+  vertical-align: super;
+  font-size: 1rem;
+}
+/* plus */
+.plus {
+  background-color: #bebcbb;
+}
+/* now */
+.now {
+  background-color: #161c3b;
+}
+/* Footer */
+.site_footer {
+  background-color: #00439c;
+}
+.site_footer ul {
+  list-style: none;
+}
