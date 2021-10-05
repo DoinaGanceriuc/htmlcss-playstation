@@ -62,7 +62,8 @@ a.nav-link.active,
 .nav-item .btn,
 .btn_transition .btn,
 .movement .card,
-.btn_transition_blue .btn {
+.btn_transition_blue .btn,
+.console_opacity {
   transition: all 0.2s;
 }
 a.nav-link.active:hover,
