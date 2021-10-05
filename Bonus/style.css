@@ -69,6 +69,9 @@ a.nav-link.active,
 .btn_transition_now .btn {
   transition: all 0.2s;
 }
+a.nav-link {
+  color: #000;
+}
 a.nav-link.active:hover,
 .nav-item .btn:hover {
   color: #0776cf !important;
@@ -77,13 +80,18 @@ a.nav-link.active:hover,
 .btn_transition_nav {
   background-color: #363636;
   border-radius: 50rem;
-  padding: 0.2rem;
-  width: 5.3rem;
+  padding: 0.25rem;
+  width: 6.5rem;
 }
 .btn_transition_nav .btn:hover {
   border: 1px solid #fff;
 }
-
+.menu_icons {
+  width: 100%;
+}
+.bg_white {
+  background-color: #fff;
+}
 /* Main */
 
 /* jumbo */
