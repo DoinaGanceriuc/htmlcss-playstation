@@ -60,7 +60,8 @@ body {
 }
 a.nav-link.active,
 .nav-item .btn,
-.btn_transition .btn {
+.btn_transition .btn,
+.movement .card {
   transition: all 0.2s;
 }
 a.nav-link.active:hover,
@@ -99,6 +100,10 @@ a.nav-link.active:hover,
 .btn_transition .btn:hover {
   border: 1px solid #000;
   color: #fff;
+}
+.movement .card:hover {
+  transform: translate(0, -0.5rem);
+  cursor: pointer;
 }
 /* new games */
 .new_games,
