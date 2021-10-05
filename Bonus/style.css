@@ -60,11 +60,13 @@ body {
 }
 a.nav-link.active,
 .nav-item .btn,
+.btn_transition_nav .btn,
 .btn_transition .btn,
 .movement .card,
 .btn_transition_blue .btn,
 .console_opacity,
-.plus .btn {
+.plus .btn,
+.btn_transition_now .btn {
   transition: all 0.2s;
 }
 a.nav-link.active:hover,
@@ -72,8 +74,14 @@ a.nav-link.active:hover,
   color: #0776cf !important;
   cursor: pointer;
 }
-.nav-item .btn:hover {
-  box-shadow: 0 0 0 0.25rem rgba(173, 172, 172, 0.568);
+.btn_transition_nav {
+  background-color: #363636;
+  border-radius: 50rem;
+  padding: 0.2rem;
+  width: 5.3rem;
+}
+.btn_transition_nav .btn:hover {
+  border: 1px solid #fff;
 }
 
 /* Main */
@@ -154,6 +162,16 @@ i.far.fa-registered {
 /* now */
 .now {
   background-color: #161c3b;
+}
+.btn_transition_now {
+  background-color: #d9dadc;
+  width: 14rem;
+  border-radius: 50rem;
+  padding: 0.25rem;
+  text-align: center;
+}
+.btn_transition_now .btn:hover {
+  border: 1px solid #000;
 }
 /* Footer */
 .site_footer {
