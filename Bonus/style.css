@@ -63,7 +63,8 @@ a.nav-link.active,
 .btn_transition .btn,
 .movement .card,
 .btn_transition_blue .btn,
-.console_opacity {
+.console_opacity,
+.plus .btn {
   transition: all 0.2s;
 }
 a.nav-link.active:hover,
@@ -144,6 +145,11 @@ i.far.fa-registered {
 /* plus */
 .plus {
   background-color: #bebcbb;
+}
+.plus .btn:hover {
+  box-shadow: 0 0 0 0.25rem #d9dadc9a;
+  background-color: #d9dadc;
+  color: #0d6efd;
 }
 /* now */
 .now {
